@@ -10,7 +10,7 @@ class CalculatorTest {
 
     @Test
     public void convertUnit() {
-        Assert.assertEquals("10.0", calc.convertUnit(1, "m", "dm"));
+        Assert.assertEquals("10.0", Calculator.convert(1, "m", "dm"));
     }
 
     @Test
