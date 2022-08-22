@@ -3,7 +3,7 @@ package homework09;
 import junit.framework.TestCase;
 import org.junit.Test;
 
-public class FestivalAttendeeThreadTest extends TestCase {
+public class FestivalAttendeeThreadTest {
 
     @Test
     public void test_ticket_type(){
