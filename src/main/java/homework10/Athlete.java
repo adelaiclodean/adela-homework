@@ -1,13 +1,13 @@
 package homework10;
 
 public class Athlete {
-    private String athleteNumber;
-    private String athleteName;
-    private String countryCode;
-    private String skiTimeResult;
-    private String firstShootingResult;
-    private String secondShootingResult;
-    private String thirdShootingResult;
+    private final String athleteNumber;
+    private final String athleteName;
+    private final String countryCode;
+    private final String skiTimeResult;
+    private final String firstShootingResult;
+    private final String secondShootingResult;
+    private final String thirdShootingResult;
     private int totalTime;
     private int missed;
 
